@@ -1,15 +1,25 @@
 spring:
-  h2:
-    console:
-      enabled: true
   datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
+    url: jdbc:oracle:thin:@localhost:1521/freepdb1
+    driverClassName: oracle.jdbc.OracleDriver
+    username: hr
+    password: oracle
+    jpa:
+      database-platform: org.hibernate.dialect.Oracle12cDialect
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create-drop
 
 server:
   address: ${APP_ADDRESS}
