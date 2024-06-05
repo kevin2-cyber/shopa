@@ -18,6 +18,8 @@ public class Product {
     @Column(unique = true)
     private String name;
 
+    @Column
     private long quantity;
+    @Column
     private double unitPrice;
 }
