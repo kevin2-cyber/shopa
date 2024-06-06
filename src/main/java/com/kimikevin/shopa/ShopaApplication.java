@@ -22,7 +22,7 @@ public class ShopaApplication implements CommandLineRunner {
 
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args){
 		String sql = "SELECT * from PRODUCT";
 
 		List<Product> products = jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(Product.class));
