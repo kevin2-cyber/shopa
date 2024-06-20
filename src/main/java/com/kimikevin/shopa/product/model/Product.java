@@ -1,4 +1,4 @@
-package com.kimikevin.shopa.model;
+package com.kimikevin.shopa.product.model;
 
 import jakarta.persistence.*;
 import lombok.*;
