@@ -1,7 +1,7 @@
-package com.kimikevin.shopa.product.model.controller;
+package com.kimikevin.shopa.product.controller;
 
 import com.kimikevin.shopa.product.model.Product;
-import com.kimikevin.shopa.product.model.service.ProductService;
+import com.kimikevin.shopa.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

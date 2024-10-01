@@ -1,7 +1,7 @@
-package com.kimikevin.shopa.product.model.service;
+package com.kimikevin.shopa.product.service;
 
 import com.kimikevin.shopa.product.model.Product;
-import com.kimikevin.shopa.product.model.repository.ProductRepository;
+import com.kimikevin.shopa.product.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

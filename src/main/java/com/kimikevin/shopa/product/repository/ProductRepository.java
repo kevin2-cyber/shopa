@@ -1,4 +1,4 @@
-package com.kimikevin.shopa.product.model.repository;
+package com.kimikevin.shopa.product.repository;
 
 import com.kimikevin.shopa.product.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
