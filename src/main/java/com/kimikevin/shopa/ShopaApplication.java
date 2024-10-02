@@ -1,6 +1,6 @@
 package com.kimikevin.shopa;
 
-import com.kimikevin.shopa.model.Product;
+import com.kimikevin.shopa.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

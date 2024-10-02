@@ -1,15 +1,16 @@
-package com.kimikevin.shopa.model;
+package com.kimikevin.shopa.product.model;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-@Data
+@Getter
+@Setter
+@ToString
 @Entity
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "product")
-@EqualsAndHashCode(callSuper = false)
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
